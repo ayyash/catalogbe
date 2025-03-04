@@ -31,6 +31,14 @@ module.exports = function () {
             data: o
         });
     });
+    router.post('/posts/:id/votes', function (req, res) {
+        const o = require('../data/post.json');
+        // if user already voted, subtract, else add
+        o.stats.votes++;
+        res.json({
+            data: o.stats.votes
+        });
+    });
 
     router.get('/posts/:id/comments', function (req, res) {
         const o = require('../data/comments.json');
