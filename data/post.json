@@ -1,0 +1,21 @@
+{
+  "id": "d29e80c1-324b-4d54-ae81-e9efe769b8e3",
+  "title": "Idea title",
+  "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore hic eligendi modi quae eos. Quisquam, consectetur est. Esse quam recusandae ab minima quidem quas aliquid, quae eum magnam, atque expedita",
+  "author": {
+    "displayname": "Johansen Deferson",
+    "avatar": "https://randomuser.me/api/portraits",
+    "shortname": "johnson"
+  },
+  "created": "2025-02-01T00:00:00.000Z",
+  "updated": "2025-02-02T14:00:00.000Z",
+  "tags": ["tag1", "tag2", "tag3"],
+  "stats": {
+    "votes": 234,
+    "comments": 223
+  },
+  "status": {
+    "value": "DRAFT",
+    "reason": ""
+  }
+}

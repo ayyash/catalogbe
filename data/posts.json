@@ -1,0 +1,86 @@
+[
+  {
+    "id": "d29e80c1-324b-4d54-ae81-e9efe769b8e3",
+    "title": "Idea title",
+    "content": "Idea content",
+    "author": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "created": "2025-02-01T00:00:00.000Z",
+    "updated": "2025-02-02T14:00:00.000Z",
+    "tags": ["tag1", "tag2", "tag3"],
+    "stats": {
+      "votes": 234,
+      "comments": 223
+    },
+    "status": {
+      "value": "ACCEPTED",
+      "reason": ""
+    }
+  },
+  {
+    "id": "278977f2-f62b-4272-b0c3-922368c7cba0",
+    "title": "Idea title2",
+    "content": "Idea content2",
+    "author": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "created": "2025-02-01T00:00:00.000Z",
+    "updated": "2025-02-02T14:00:00.000Z",
+    "tags": ["tag1", "tag5", "tag4"],
+    "stats": {
+      "votes": 34,
+      "comments": 3
+    },
+    "status": {
+      "value": "ACTIVE",
+      "reason": ""
+    }
+  },
+  {
+    "id": "dd0ef6be-fb68-449e-8e89-f3c55ddbe9b1",
+    "title": "Idea title2",
+    "content": "Idea content2",
+    "author": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "created": "2025-02-01T00:00:00.000Z",
+    "updated": "2025-02-02T14:00:00.000Z",
+    "tags": ["tag1", "tag5", "tag4"],
+    "stats": {
+      "votes": 34,
+      "comments": 3
+    },
+    "status": {
+      "value": "REJECTED",
+      "reason": "reason of rejection"
+    }
+  },
+  {
+    "id": "dd0ef6be-fb68-449e-8e89-f3c55ddbe9b1",
+    "title": "Idea title2",
+    "content": "Idea content2",
+    "author": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "created": "2025-02-01T00:00:00.000Z",
+    "updated": "2025-02-02T14:00:00.000Z",
+    "tags": ["tag1", "tag5", "tag4"],
+    "stats": {
+      "votes": 34,
+      "comments": 3
+    },
+    "status": {
+      "value": "COMPLETED",
+      "reason": ""
+    }
+  }
+]
