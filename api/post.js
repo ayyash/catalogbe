@@ -23,6 +23,22 @@ module.exports = function () {
 
         }
     });
+    router.get('/stats', function (req, res) {
+        let o = [];
+        for(let i = 0; i < 20; i++) {
+            o.push({
+                tag: 'lorem' + parseInt(Math.random()*10),
+                votes:  parseInt(Math.random()*1000)
+            });
+        }
+        
+        o = o.sort((a, b) => b.votes - a.votes);
+    
+        res.json({
+            data: o
+        });
+
+    });
 
 
     router.get('/posts/:id', function (req, res) {

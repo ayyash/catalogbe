@@ -24,6 +24,7 @@ webapi.options("/*", function (req, res, next) {
 
 
 webapi.use('/api', require('./api/post')());
+webapi.use('/api', require('./api/notification')());
 
 webapi.use('/data', express.static(__dirname + '/data'));
 

@@ -1,0 +1,77 @@
+[
+  {
+    "user": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "action": "REPLY",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    "date": "2025-03-04T10:30:00Z",
+    "id": "ce735a34-8b37-4b44-8aa4-2beacf5b0fc2",
+    "post": {
+        "id": "864f9be7-e029-4f46-a13b-337d1f68a658",
+        "title": "The great impact"
+    }
+  },
+  {
+    "user": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "action": "COMMENT",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    "date": "2025-03-04T11:30:00Z",
+    "id": "6add3551-8ce2-44b6-8583-0d8653766fbf",
+    "post": {
+        "id": "864f9be7-e029-4f46-a13b-337d1f68a658",
+        "title": "The great impact"
+    }
+  },
+  {
+    "user": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "action": "REJECTED",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed",
+    "date": "2025-02-04T12:30:00Z",
+    "id": "68500b8a-d605-4030-93e2-81fed99dd4c8",
+    "post": {
+        "id": "864f9be7-e029-4f46-a13b-337d1f68a658",
+        "title": "The great impact"
+    }
+  },
+  {
+    "user": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "action": "ACCEPTED",
+    "content": "",
+    "date": "2025-03-04T14:30:00Z",
+    "id": "55eff2ec-fc17-4601-9380-7ce3ded2dd22",
+    "post": {
+        "id": "864f9be7-e029-4f46-a13b-337d1f68a658",
+        "title": "The great impact"
+    }
+  },
+  {
+    "user": {
+      "displayname": "Johansen Deferson",
+      "avatar": "https://randomuser.me/api/portraits",
+      "shortname": "johnson"
+    },
+    "action": "COMPLETED",
+    "content": "",
+    "date": "2025-03-04T16:30:00Z",
+    "id": "3c1ee4ab-e43f-4bbe-98a1-4cf8e8d8e97f",
+    "post": {
+        "id": "864f9be7-e029-4f46-a13b-337d1f68a658",
+        "title": "The great impact"
+    }
+  }
+]
