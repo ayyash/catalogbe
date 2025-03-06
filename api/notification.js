@@ -4,6 +4,7 @@ const uuid = require('uuid').v4;
 module.exports = function () {
 
     const router = express.Router();
+    var COUNT = 21;
 
     router.get('/notifications', function (req, res) {
         const o = require('../data/notifications.json');
@@ -31,6 +32,23 @@ module.exports = function () {
         // remove all notifications
         notifications = [];
 
+        res.json({
+            data: true
+        });
+    });
+
+    // TODO: FIXME: this is an oversight, this should be part of the account service
+    router.get('/notifications/count', function (req, res) {
+
+        // mark all as read by resetting account itself
+        res.json({
+            data: COUNT
+        });
+    });
+    router.post('/notifications/mark', function (req, res) {
+
+        // mark all as read by resetting account itself
+        COUNT = 0;
         res.json({
             data: true
         });
